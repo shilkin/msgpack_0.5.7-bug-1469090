@@ -38,4 +38,5 @@ tail ./valgrind.log
 
 ## Conclusion
 Mixing malloc/delete in msgpack::unpacker::next() causes an undefined behaviour. It's a serious problem for production systems.
+In msgpack 0.5.9 many bugs are fixed. Maybe it's a time to bump version of msgpack in ubuntu repo?
 
